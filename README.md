@@ -2,3 +2,10 @@
 Removes the recommended videos from YouTube's sidebar 
 
 YouTube adds videos to the sidebar that are recommended because of your watch history. This extension removes those so that only the videos related to what you're currently watching are shown on the sidebar.
+
+ - Available As Extension:
+  - [AMO](https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-recommendeds/)
+ - Available As Userscript:
+  - Requires [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](http://tampermonkey.net/)
+  - [Github Mirror](https://github.com/Rayquaza01/RemoveYouTubeRecommendeds/raw/master/extension/RemoveYouTubeRecommendeds.user.js)
+  - [Greasyfork Mirror](https://greasyfork.org/en/scripts/26886-removeyoutuberecommendeds)
