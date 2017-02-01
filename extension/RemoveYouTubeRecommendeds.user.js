@@ -7,10 +7,8 @@
 // @grant       none
 // ==/UserScript==
 elements = document.getElementsByClassName('view-count');
-re = /[\d]/;
 for (i = 0; i < elements.length; i++) {
-    temp = elements[i].innerHTML;
-    if (!temp.match(re)) {
+    if (!elements[i].innerHTML.match(/[\d]/)) {
         elements[i].parentNode.style.display = 'none';
     }
 }
