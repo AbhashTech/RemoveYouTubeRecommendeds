@@ -4,7 +4,7 @@
 // @description Removes the recommended videos from YouTube's sidebar 
 // @match       *://www.youtube.com/*
 // @license     MIT License
-// @version     3.1
+// @version     3.2
 // @grant       none
 // ==/UserScript==
 function hide() {
@@ -23,4 +23,4 @@ function youtubePageChange() {
         hide();
     }, false);
 }
-window.onload = youtubePageChange();
+youtubePageChange();
