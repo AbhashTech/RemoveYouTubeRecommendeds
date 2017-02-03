@@ -17,8 +17,8 @@ function hide() {
 }
 function youtubePageChange() {
     hide();
-    let element = document.getElementById("body");
-    element.addEventListener("transitionend", function(event) {
+    let element = document.getElementById('body');
+    element.addEventListener('transitionend', function(event) {
         if (event.target.id != 'progress') return false;
         hide();
     }, false);
