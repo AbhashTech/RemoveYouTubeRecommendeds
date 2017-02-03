@@ -12,7 +12,6 @@ function hide() {
     for (let i = 0; i < elements.length; i++) {
         if (!elements[i].innerHTML.match(/\d/)) {
             elements[i].parentNode.style.display = 'none';
-            console.log('Hidden');
         }
     }
 }
