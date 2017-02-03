@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
   "name": "Remove YouTube Recommendeds",
-  "version": "3",
+  "version": "3.1",
   "description": "Removes the recommended videos from YouTube's sidebar",
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*"],
-      "js": ["thirdparty/jquery.min.js", "RemoveYouTubeRecommendeds.user.js"]
+      "js": ["RemoveYouTubeRecommendeds.user.js"]
     }
   ]
 }
