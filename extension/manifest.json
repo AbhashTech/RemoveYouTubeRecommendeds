@@ -1,8 +1,25 @@
 {
   "manifest_version": 2,
   "name": "Remove YouTube Recommendeds",
-  "version": "3.1",
+  "version": "4.1",
   "description": "Removes the recommended videos from YouTube's sidebar",
+  "icons": {
+      "96": "youtube-play.png"
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "permissions": [
+      "tabs",
+      "activeTab",
+      "contextMenus"
+  ],
+  "page_action": {
+    "default_title": "Show Recommendeds",
+    "default_icon": {
+        "96": "icons/plus.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*"],
