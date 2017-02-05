@@ -4,7 +4,7 @@
 // @description Removes the recommended videos from YouTube's sidebar 
 // @match       *://www.youtube.com/*
 // @license     MIT License
-// @version     4.1
+// @version     4.2
 // @grant       GM_registerMenuCommand
 // ==/UserScript==
 function hide(display) {

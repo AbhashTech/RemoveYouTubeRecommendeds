@@ -1,29 +1,28 @@
 {
-  "manifest_version": 2,
-  "name": "Remove YouTube Recommendeds",
-  "version": "4.1",
-  "description": "Removes the recommended videos from YouTube's sidebar",
-  "icons": {
-      "96": "youtube-play.png"
-  },
-  "background": {
-      "scripts": ["background.js"]
-  },
-  "permissions": [
-      "tabs",
-      "activeTab",
-      "contextMenus"
-  ],
-  "page_action": {
-    "default_title": "Show Recommendeds",
-    "default_icon": {
-        "96": "icons/plus.png"
-    }
-  },
-  "content_scripts": [
-    {
-      "matches": ["*://www.youtube.com/*"],
-      "js": ["RemoveYouTubeRecommendeds.user.js"]
-    }
-  ]
+    "manifest_version": 2,
+    "name": "Remove YouTube Recommendeds",
+    "version": "4.2",
+    "description": "Removes the recommended videos from YouTube's sidebar",
+    "icons": {
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "page_action": {
+        "browser_style": true,
+        "default_title": "Show Recommendeds",
+        "default_icon": "icons/show.svg"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.youtube.com/*"],
+            "js": ["RemoveYouTubeRecommendeds.user.js"]
+        }
+    ]
 }
