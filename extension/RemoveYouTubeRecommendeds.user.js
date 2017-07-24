@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name        RemoveYouTubeRecommendeds
 // @namespace   https://github.com/rayquaza01
-// @description Removes the recommended videos from YouTube"s sidebar 
+// @description Removes the recommended videos from YouTube's sidebar 
 // @match       *://www.youtube.com/*
 // @license     MIT License
-// @version     4.4
+// @version     4.4.1
 // @grant       GM_registerMenuCommand
+// @icon        https://raw.githubusercontent.com/Rayquaza01/RemoveYouTubeRecommendeds/master/extension/icons/icon-96.png
 // ==/UserScript==
 function hide(display) {
     var ele = document.getElementsByClassName("view-count");
