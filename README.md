@@ -1,6 +1,10 @@
 # RemoveYouTubeRecommendeds
 Removes the recommended videos from YouTube's sidebar 
 
+**NOTE!**
+This extension is not being actively maintained. It may not work as intended, or at all. Feel free to fork it or submit a pull request at https://github.com/Rayquaza01/RemoveYouTubeRecommendeds
+
+
 If you already use uBlock Origin on YouTube, this filter may be better than this addon:  
 `youtube.com##li.video-list-item:if(span:has-text(/Recommended/))`
 
