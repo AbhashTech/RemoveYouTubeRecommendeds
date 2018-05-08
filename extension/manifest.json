@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "Remove YouTube Recommendeds",
-    "version": "4.4",
-    "description": "Removes the recommended videos from YouTube's sidebar",
+    "name": "Remove YouTube Recommends",
+    "version": "0.1",
+    "description": "Removes the recommended videos from YouTube's Homepage",
     "applications": {
         "gecko": {
-            "id": "{550d76af-3da4-4fe0-ac24-8f4ea46bf989}"
+            "id": "kunal@abhashtech.com"
         }
     },
     "icons": {
